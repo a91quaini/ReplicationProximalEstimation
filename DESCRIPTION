@@ -1,11 +1,21 @@
 Package: ReplicationProximalEstimation
-Title: What the Package Does (One Line, Title Case)
+Title: Replication Package for Proximal Estimation under Irregular Designs
 Version: 0.0.0.9000
 Authors@R: 
-    person("First", "Last", , "first.last@example.com", role = c("aut", "cre"))
-Description: What the package does (one paragraph).
-License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
-    license
+    person("Alberto", "Quaini", , "YOUR@EMAIL", role = c("aut", "cre"))
+Description: Provides code to replicate Monte Carlo experiments for
+    proximal estimation under vanishing measurement error and irregular
+    design matrices.
+License: MIT + file LICENSE
 Encoding: UTF-8
+Language: en-US
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.3.3
+Imports: 
+    ggplot2,
+    glmnet,
+    Matrix,
+    stats
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3

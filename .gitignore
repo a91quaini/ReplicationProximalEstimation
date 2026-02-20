@@ -1,6 +1,46 @@
-.Rproj.user
+# RStudio / R
+.Rproj.user/
 .Rhistory
 .RData
-.httr-oauth
+.Ruserdata
+
+# Session / build artifacts
+.Rcheck/
+.Rout
+.Rout.fail
+.Rout.save
+*.Rout
+
+# Package build outputs
+*.tar.gz
+*.tgz
+*.zip
+
+# Compiled objects (in case you add C/C++ later)
+*.o
+*.so
+*.dll
+*.dylib
+*.a
+
+# OS / editor
 .DS_Store
-.quarto
+Thumbs.db
+*~
+*.swp
+
+# Credentials / auth
+.httr-oauth
+.Renviron
+.Rprofile
+
+# Quarto / RMarkdown intermediates
+.quarto/
+*_cache/
+*_files/
+
+# Optional: keep large simulation outputs out of git (recommended)
+inst/simulations/output/
+inst/simulations/results/
+inst/simulations/figures/
+inst/simulations/cache/
